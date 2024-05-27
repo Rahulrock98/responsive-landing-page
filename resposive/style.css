@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    padding: 0 50px 0 50px;
+    display: flex;
+    width: calc(100% - 100px);
+
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: lightseagreen;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.logo h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    color: lightseagreen;
+    margin: 20px 350px 0 20px;
+}
+
+.navbar button {
+    border: none;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    height: 34px;
+    width: 75px;
+    margin: 20px 0 0 440px;
+    font-weight: 700;
+    justify-content: right;
+}
+
+.left {
+    height: 100vh;
+}
+
+.left h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 4.2rem;
+    margin:70px 0 10px 20px;
+    line-height: 65px;
+    max-width: 60%;
+}
+
+.left span {
+    color: lightseagreen;
+}
+
+.left p {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+    max-width: 50%;
+    color: lightseagreen;
+    margin: 0 0 0 10px;
+
+}
+
+.image img {
+    height: 80vh;
+    width: 45vw;
+    float: right;
+}
+
+.book {
+    padding: 20px;
+    border: none;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    height: 80px;
+    font-weight: 800;
+    margin: 50px 0 0 150px;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,66 @@
+@media screen and(max-width:440px) {
+    .main{
+        flex-direction: column;
+        width: 440px;
+    }
+    nav {
+        display: flex;
+    }
+    nav a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background-color: lightseagreen;
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        border-radius: 5px;
+        display: none;
+    }
+    .logo h3 {
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 2rem;
+        color: lightseagreen;
+    }
+    .navbar button {
+        border: none;
+        background-color: lightseagreen;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+       
+    }
+    .left h1 {
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 4.2rem;
+     
+    }
+    .left p {
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.2rem;
+        color: lightseagreen;
+       }
+       .image img {
+        height: 80vh;
+        width: 45vw;
+    }
+    .book {
+        padding: 20px;
+        border: none;
+        background-color: lightseagreen;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        height: 20px;
+        font-weight: 800;
+        margin: 50px 0 0 150px;
+        font-size: 0.4rem;
+    }
+}
